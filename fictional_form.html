@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <form action="mailto:shivampriority@gmail.com" oninput="x.value=parseInt(a.value)+parseInt(b.value)" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>My Personal Info</legend>
+            <label for="name">Your Name</label>
+        <br>
+        <input type="text" name="Enter your name" id="name" value="Shivam Rathore">
+        <br>
+        <label for="profile_pic">Choose Profile Photo</label>
+        <br>
+        <input type="file" name="Choose your profile photo" id="">
+        <br>
+        <label for="info">Learning HTML</label>
+        <br>
+        <input type="checkbox" name="Choose option" id="d" value="1">
+        <br>
+        <label for="fav_car">Choose Favourite Card</label>
+        <br>
+        <select name="fav_car" id="fav_car" size="1">
+            <option value="Maruti">Maruti</option>
+            <option value="bmw" selected>BMW</option>
+            <option value="odi">Odi</option>
+            <option value="kia">Kia</option>
+            
+        </select>
+        
+        <br>
+        <label for="desc">About Yourself</label>
+        <br>
+        <textarea name="desc" id="desc" cols="30" rows="10">Hi, i am shivam rathore</textarea>
+        <br>
+        <label for="hobbies">Choose Hobbies</label>
+        <br>
+        <input list="hobbies" name="hobbies">
+        <datalist id="hobbies">
+            <option value="Programming">Programming</option>
+            <option value="Football">Football</option>
+            <option value="Volleyball">Volleyball</option>
+            <option value="Cricket">Cricket</option>
+        </datalist>
+        <br>
+        0<input type="range" name="a" id="a" value="50">100+
+        <input type="number" name="b" id="b" value="50">
+        <output for="a b" name="" id="x" value="0"></output>
+        <br>
+        <label for="color">Choose your color</label>
+        <br>
+        <input type="color" name="color" id="color">
+        <br>
+        <label for="update_password">Update Password</label>
+        <br>
+        <input type="password" name="password" id="update_password" value="12345">
+        <br>
+        <br>
+
+        <button type="button" onclick="alert('Form submitted successfully')">Submit Form</button>
+        </fieldset>
+        
+        <input type="submit" name="" id="" value="Update Profile">
+
+        
+
+    </form>
+</body>
+</html>
